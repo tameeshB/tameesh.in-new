@@ -7,7 +7,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic|Dancing+Script" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 			 <style>
+			 *{
+			 	font-family: 'Josefin Sans', sans-serif ;
+			 }
 	 	 	#homeimg {
 			    opacity: 1;
 			    /*position: absolute;*/
@@ -19,21 +25,39 @@
 			    z-index: 10;
 			    width: 200px;
 			    border-radius: 100px;
-
-			    background-image: url(pic.jpg);
-			    background-size: 200%;
-			    background-position-x: 55%;
-			    box-shadow: 0 0 30px #151414;
+			    background-image: url('pic/dp_.png');
+			    background-size: 120%;
+			    background-position: -30px;
+			    box-shadow: 0 0 50px #151414;
 			    background-color: #000000;
-			    filter: alpha(opacity=70);
-			    /* background-position-x: 100%; */
 			}
+			.nomargin{
+				margin: 0px;
+			}
+			.fa {
+			    /* padding: 20px; */
+			    background-color: #4a4a4a;
+			    box-shadow: rgb(76, 92, 150) 0 0 15px;
+			    font-size: 30px;
+			    width: 50px;
+			    padding: 10px;
+			    height: 50px;
+			    margin: 10px;
+			    text-align: center;
+			    text-decoration: none;
+			    border-radius: 50%;
+				cursor: pointer;
+			}
+			.fa:hover {
+			    opacity: 0.7;
+			}
+		
 	 	 </style>
 	</head>
 	<body>
 			<div id="page-wrapper">
 					<header id="header" class="alt">
-						<h1><a href="">Tameesh.in</a></h1>
+						<h1><a href="">tameesh.in</a></h1>
 						<nav>
 							<a href="#menu">--nav--</a>
 						</nav>
@@ -55,32 +79,73 @@
 						<div class="inner">
 							<div class="logo"><div id="homeimg"></div></div>
 							<h2 id="headtext" style="text-transform: none !important;text-align: center;"><b>Tameesh Biswas</b></h2>
-							<p style="text-transform: none !important;text-align: center;">Developer, Code fanatic, tech enthusiast</p>
+							<p style="text-transform: none !important;text-align: center;">Developer, Code fanatic, tech enthusiast<br><a href="https://www.facebook.com/tameeshB" class="fa fa-facebook"></a>
+								<a href="https://twitter.com/tameeshb" class="fa fa-twitter"></a>
+								<a href="https://twitter.com/tameeshb" class="fa fa-linkedin"></a>
+								<a href="https://twitter.com/tameeshb" class="fa fa-github"></a>
+								<a href="https://twitter.com/tameeshb" class="fa fa-instagram"></a>
+								<a href="https://twitter.com/tameeshb" class="fa fa-drupal"></a></p>
+					
 						</div>
 					</section>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
-
+							
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<a  class="image"><img src="pic/octocat.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<h2 class="major">About Me!</h2>
+										<p>Full stack Web Developer at Anwesha,IIT Patna <br>Freshman year Computer Science &amp; Engineering student at IIT Patna <br>Programming, Computer Science and Tech lover ♥</p>
+										<a href="http://tameesh.in/about/" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							
+							<br>
+							<h1 style="font-size: 3em;text-align: center">Worked at/as</h1>
+							<br>
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="pic/iitp.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major" style="text-transform: none !important;font-family: 'Josefin Sans', sans-serif !important;"></h2>
+										<h3 class="nomargin">Bachelors in Technology</h3>
+										<h3 class="nomargin">Major: Computer Science and Engineering</h3>
+										<p>The Indian Institute of Technology Patna is an autonomous institute of education and research in science, engineering and technology located in Patna, India. It is recognized as an Institute of National Importance by the Government of India.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
+							
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="pic/dps.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Delhi Public School, Navi Mumbai</h2>
+										<h3 class="nomargin">Primary-Middle-High School</h3>
+										<p></p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							<span id="about"></span>
+							</section>
+							
 
-						<!-- Two -->
+							<br>
+							<h1 style="font-size: 3em;text-align: center">Alma matter</h1>
+							<br>
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="pic/iitp.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Tempus adipiscing</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<h2 class="major" style="text-transform: none !important;font-family: 'Josefin Sans', sans-serif !important;">Indian Institute of Technology, Patna - IIT P</h2>
+										<h3 class="nomargin">Bachelors in Technology</h3>
+										<h3 class="nomargin">Major: Computer Science and Engineering</h3>
+										<p>The Indian Institute of Technology Patna is an autonomous institute of education and research in science, engineering and technology located in Patna, India. It is recognized as an Institute of National Importance by the Government of India.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
@@ -89,20 +154,25 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="pic/dps.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Nullam dignissim</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<h2 class="major">Delhi Public School, Navi Mumbai</h2>
+										<h3 class="nomargin">Primary-Middle-High School</h3>
+										<p></p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
+							<span id="about"></span>
 							</section>
-
+							<br>
+							<br >
+								<h1 style="font-size: 3em;text-align: center">Projects/Work</h1>
+							<br>
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Vitae phasellus</h2>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<h2 class="major">Highlights</h2>
+									<p>This section contains some of my the things I've worked on before</p>
 									<section class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
