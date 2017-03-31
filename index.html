@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 			 <style>
-			 *{
+			 .myfont{
 			 	font-family: 'Josefin Sans', sans-serif ;
 			 }
 	 	 	#homeimg {
@@ -51,7 +51,12 @@
 			.fa:hover {
 			    opacity: 0.7;
 			}
-		
+			#banner:before,#banner:after {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867%3B' /%3E%3C/svg%3E");
+			}
+			.notr{
+				text-transform: none !important;
+			}
 	 	 </style>
 	</head>
 	<body>
@@ -78,14 +83,16 @@
 					<section id="banner" style="min-height:90%">
 						<div class="inner">
 							<div class="logo"><div id="homeimg"></div></div>
-							<h2 id="headtext" style="text-transform: none !important;text-align: center;"><b>Tameesh Biswas</b></h2>
-							<p style="text-transform: none !important;text-align: center;">Developer, Code fanatic, tech enthusiast<br><a href="https://www.facebook.com/tameeshB" class="fa fa-facebook"></a>
+							<h2 id="headtext" class="notr" style="text-align: center;"><b>Tameesh Biswas</b></h2>
+							<p  class="notr"  style="text-align: center;">Developer, Code fanatic, tech enthusiast<br><a href="https://www.facebook.com/tameeshB" class="fa fa-facebook"></a>
 								<a href="https://twitter.com/tameeshb" class="fa fa-twitter"></a>
 								<a href="https://twitter.com/tameeshb" class="fa fa-linkedin"></a>
 								<a href="https://twitter.com/tameeshb" class="fa fa-github"></a>
 								<a href="https://twitter.com/tameeshb" class="fa fa-instagram"></a>
-								<a href="https://twitter.com/tameeshb" class="fa fa-drupal"></a></p>
-					
+								<a href="https://twitter.com/tameeshb" class="fa fa-drupal"></a><br>
+								<a href="https://blog.tameesh.in"  class="notr myfont button">Drupal Blog</a>
+								<a href="https://cloud.tameesh.in" class="notr myfont button">MyCloud</a>
+							</p>
 						</div>
 					</section>
 
@@ -97,7 +104,7 @@
 								<div class="inner">
 									<a  class="image"><img src="pic/octocat.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">About Me!</h2>
+										<h2 class="major myfont">About Me!</h2>
 										<p>Full stack Web Developer at Anwesha,IIT Patna <br>Freshman year Computer Science &amp; Engineering student at IIT Patna <br>Programming, Computer Science and Tech lover ♥</p>
 										<a href="http://tameesh.in/about/" class="special">Learn more</a>
 									</div>
@@ -109,11 +116,11 @@
 							<br>
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="pic/iitp.png" alt="" /></a>
+									<a href="#" class="image"><img src="pic/anwesha.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major" style="text-transform: none !important;font-family: 'Josefin Sans', sans-serif !important;"></h2>
-										<h3 class="nomargin">Bachelors in Technology</h3>
-										<h3 class="nomargin">Major: Computer Science and Engineering</h3>
+										<h2 class="major" style="text-transform: none !important;" class="myfont">Anwesha , IIT Patna</h2>
+										<h3 class="nomargin myfont">Working as a full stack developer Anwesha 2017 Web Application</h3>
+										<h3 class="nomargin myfont">Aug 2016 – Present<br>Location:IIT Patna</h3>
 										<p>The Indian Institute of Technology Patna is an autonomous institute of education and research in science, engineering and technology located in Patna, India. It is recognized as an Institute of National Importance by the Government of India.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
@@ -123,11 +130,24 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="pic/dps.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="pic/tedx.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Delhi Public School, Navi Mumbai</h2>
-										<h3 class="nomargin">Primary-Middle-High School</h3>
-										<p></p>
+										<h2 class="major">TEDxIITPatna</h2>
+										<h3 class="nomargin myfont">Working as a full stack developer Anwesha 2017 Web Application</h3>
+										<h3 class="nomargin myfont">Sep 2016 – Nov 2016<br>Location:IIT Patna</h3>
+										<p>The Indian Institute of Technology Patna is an autonomous institute of education and research in science, engineering and technology located in Patna, India. It is recognized as an Institute of National Importance by the Government of India.</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							<span id="about"></span>
+							</section>
+								<section id="three" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="pic/IAMAI.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Hackathon #hackforIndia <br>Internet and Mobile Association of India</h2>
+										<h3 class="nomargin myfont">Working as a full stack developer Anwesha 2017 Web Application</h3>
+										<p>This is the Mobile Web-app that I built from scratch in #hackforIndia hackathon Under the category “EduTech”<br>A mobile web application for scheduling, organising and managing channels of communication in an educational Institution.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
@@ -138,7 +158,7 @@
 							<br>
 							<h1 style="font-size: 3em;text-align: center">Alma matter</h1>
 							<br>
-							<section id="two" class="wrapper alt spotlight style2">
+							<section id="two" class="wrapper  spotlight style3">
 								<div class="inner">
 									<a href="#" class="image"><img src="pic/iitp.png" alt="" /></a>
 									<div class="content">
@@ -152,7 +172,7 @@
 							</section>
 
 						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
+							<section id="three" class="wrapper alt spotlight style2">
 								<div class="inner">
 									<a href="#" class="image"><img src="pic/dps.jpg" alt="" /></a>
 									<div class="content">
