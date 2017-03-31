@@ -7,6 +7,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+			<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+	 <meta name="theme-color" content="#4d4256">	  
+		
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic|Dancing+Script" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -58,11 +62,12 @@
 				text-transform: none !important;
 			}
 	 	 </style>
+	 	
 	</head>
 	<body>
 			<div id="page-wrapper">
 					<header id="header" class="alt">
-						<h1><a href="">tameesh.in</a></h1>
+						<h1><a href="">Tameesh Biswas</a></h1>
 						<nav>
 							<a href="#menu">--nav--</a>
 						</nav>
@@ -81,17 +86,17 @@
 						</div>
 					</nav>
 					<section id="banner" style="min-height:90%">
-						<div class="inner">
+						<div  class="inner">
 							<div class="logo"><div id="homeimg"></div></div>
 							<h2 id="headtext" class="notr" style="text-align: center;"><b>Tameesh Biswas</b></h2>
 							<p  class="notr"  style="text-align: center;">Developer, OpenSource enthusiast, Code fanatic<br>
 								<code>IRC: tameeshb @freenode</code><br>
+								<a href="https://linkedin.com/in/tameeshb" class="fa fa-linkedin"></a>
 								<a href="https://www.facebook.com/tameeshB" class="fa fa-facebook"></a>
+								<a href="https://github.com/tameeshb" class="fa fa-github"></a>
+								<a href="https://instagram.com/tameeshb" class="fa fa-instagram"></a>
 								<a href="https://twitter.com/tameeshb" class="fa fa-twitter"></a>
-								<a href="https://twitter.com/tameeshb" class="fa fa-linkedin"></a>
-								<a href="https://twitter.com/tameeshb" class="fa fa-github"></a>
-								<a href="https://twitter.com/tameeshb" class="fa fa-instagram"></a>
-								<a href="https://twitter.com/tameeshb" class="fa fa-drupal"></a><br>
+								<a href="https://drupal.org/u/tameeshb" class="fa fa-drupal"></a><br>
 								<a href="https://blog.tameesh.in"  class="notr myfont button">Drupal Blog</a>
 								<a href="https://cloud.tameesh.in" class="notr myfont button">MyCloud</a>
 							</p>
@@ -103,7 +108,7 @@
 							
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
+								<div  data-aos="fade-up" class="inner">
 									<a  class="image"><img src="pic/octocat.png" alt="" /></a>
 									<div class="content">
 										<h2 class="major myfont">About Me!</h2>
@@ -116,7 +121,7 @@
 							<br>
 							<h1 style="font-size: 3em;text-align: center">Worked at/as</h1>
 							<br>
-							<section id="two" class="wrapper alt spotlight style2">
+							<div id="two"  data-aos="fade-up" class="wrapper alt spotlight style2">
 								<div class="inner">
 									<a href="#" class="image"><img src="pic/anwesha.png" alt="" /></a>
 									<div class="content">
@@ -127,7 +132,7 @@
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
-							</section>
+							</div>
 							
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
@@ -278,6 +283,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+ <script>
+		    AOS.init();
+			   $(window).on('load', function () {
+			    AOS.refresh();
+			});
+		</script>
 	</body>
 </html>
