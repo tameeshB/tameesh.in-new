@@ -7,6 +7,11 @@
     text-align: center;
     margin: 0 auto;
 }
+@media screen and (max-width: 480px) {
+    #calcont{
+         zoom: 0.5 !important;
+    }
+}
 .table-column,.contrib-column{
     display: none !important;
 }
