@@ -2373,7 +2373,7 @@
 
 			ul.contact li {
 				text-decoration: none;
-				margin: 2.5em 0 0 0;
+				/*margin: 2.5em 0 0 0;*/
 				padding: 0 0 0 3.25em;
 				position: relative;
 			}
@@ -3114,7 +3114,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
+				padding: 4em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto, cover;
