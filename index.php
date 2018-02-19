@@ -24,7 +24,19 @@
 		<script
 		  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
 		</script>
-
+		<!-- <script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+		<script>
+			// Initialize Firebase
+			var config = {
+				apiKey: "AIzaSyA7yjTDXvch5zzX8nphwgpM8Jn9VWKnPeA",
+				authDomain: "tameesh-in.firebaseapp.com",
+				databaseURL: "https://tameesh-in.firebaseio.com",
+				projectId: "tameesh-in",
+				storageBucket: "tameesh-in.appspot.com",
+				messagingSenderId: "497297297658"
+			};
+			firebase.initializeApp(config);
+		</script> -->
 		<link rel="stylesheet" href="assets/css/github.css" />
 			 <style>
 			 .myfont{
@@ -142,6 +154,10 @@
 								<a target="_blank" href="https://twitter.com/tameeshb" class="fa faw-up fa-twitter"></a>
 								<a target="_blank" href="https://drupal.org/u/tameeshb" class="fa faw-up fa-drupal"></a><br>
 								<a target="_blank" href="https://blog.tameesh.in"  class="notr myfont  button">Drupal Blog</a>
+							<center><p  class="notr myfont"  style="text-align: center;"><h3 style="text-align: center;font-size:1.5em">What's New?</h3>
+								<a target="_blank" href="https://2018.fossasia.org/"  class="notr myfont  button">I'll be speaking at the FOSSASIA Open-Source Summit 2018</a><br>
+			 					<a target="_blank" href="https://twitter.com/TameeshB/status/961274781101260800"  class="notr myfont  button">Google Udacity Scholarship</a><br>
+							</center><br>
 						<span id="intro"></span>
 								<!-- <a target="_blank" href="https://cloud.tameesh.in/" class="notr myfont button">MyCloud</a> -->
 
@@ -201,7 +217,7 @@
 									<div class="content">
 										<h2 class="major" style="text-transform: none !important;" class="myfont">Google Code-In</h2>
 										<h3 class="nomargin myfont">Mentor for Drupal</h3>
-										<h3 class="nomargin myfont">November 2017 – Present</h3>
+										<h3 class="nomargin myfont">November 2017 – January 2018</h3>
 										<p>
 											
 										</p>
@@ -299,7 +315,7 @@
 							</section>
 						
 						<!-- Three -->
-							<section id="three" class="wrapper spotlight style2">
+							<section id="three" class="wrapper spotlight style2 alt">
 								<div class="inner">
 									<a href="#" class="image"><img src="pic/dps.png" alt="" /></a>
 									<div class="content">
@@ -389,6 +405,7 @@
 								<li><a target="_blank" href="https://twitter.com/tameeshb" class="myfont">&nbsp;&nbsp;&nbsp;Twitter</a></li>
 								<li><a target="_blank" href="https://drupal.org/u/tameeshb" class="myfont">&nbsp;&nbsp;&nbsp;Drupal</a></li>
 								<li><a target="_blank" href="https://blog.tameesh.in"  class="notr myfont button">Drupal Blog</a></li>
+								
 								<!-- <li><a target="_blank" href="https://cloud.tameesh.in/" class="notr myfont button">MyCloud</a></li> -->
 							</ul>
 							
