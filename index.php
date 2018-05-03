@@ -153,11 +153,14 @@
 								<a target="_blank" href="https://instagram.com/tameeshb" class="fa faw-up fa-instagram"></a>
 								<a target="_blank" href="https://twitter.com/tameeshb" class="fa faw-up fa-twitter"></a>
 								<a target="_blank" href="https://drupal.org/u/tameeshb" class="fa faw-up fa-drupal"></a><br>
-								<a target="_blank" href="https://blog.tameesh.in"  class="notr myfont  button">Drupal Blog</a>
+								<a target="_blank" href="https://blog.tameesh.in"  class="notr myfont  button">Blog</a>
 							<center><p  class="notr myfont"  style="text-align: center;"><h3 style="text-align: center;font-size:1.5em">What's New?</h3>
 								<a target="_blank" href="https://www.linkedin.com/company/autodesk/"  class="notr myfont  button">SWE Intern @ Autodesk for Summer '18</a><br>
 								<a target="_blank" href="https://2018.fossasia.org/"  class="notr myfont  button">I'll be speaking at the FOSSASIA Open-Source Summit 2018</a><br>
-			 					<a target="_blank" href="https://twitter.com/TameeshB/status/961274781101260800"  class="notr myfont  button">Google Udacity Scholarship</a><br>
+			 					
+								<a target="_blank" href="https://www.udacity.com/bertelsmann-data-scholarships"  class="notr myfont  button">Bertelsmann Udacity Data Science Scholarship</a><br>
+								<a target="_blank" href="https://twitter.com/TameeshB/status/961274781101260800"  class="notr myfont  button">Google Udacity Scholarship</a><br>
+							</center><br>
 							</center><br>
 						<span id="intro"></span>
 								<!-- <a target="_blank" href="https://cloud.tameesh.in/" class="notr myfont button">MyCloud</a> -->
