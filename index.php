@@ -335,7 +335,7 @@
 							<!-- 
 							<br >
 								<h1 style="font-size: 3em;text-align: center" class="myfont">Projects</h1>
-							 --><br>
+							 <br>
 						<center><hr width="50%">
 							<a target="_blank" href="https://github.com/tameeshb" class="button">Browse All Projects</a><hr width="50%"></center>
 							<br ><br ><br >
@@ -354,7 +354,7 @@
 										</p>
 									</div>
 								</div>
-							</section>
+							</section>-->
 
 					</section>
 					<!-- mainwrapper close -->
