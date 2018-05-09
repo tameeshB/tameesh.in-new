@@ -318,7 +318,7 @@
 								</div>
 							</section>
 						
-						<!-- Three -->
+						<!-- Three 
 							<section id="three" class="wrapper spotlight style2 alt">
 								<div class="inner">
 									<a href="#" class="image"><img src="pic/dps.png" alt="" /></a>
@@ -330,7 +330,7 @@
 									</div>
 								</div>
 							<span id="projects"></span>
-							</section>
+							</section>-->
 							<br>
 							<!-- 
 							<br >
