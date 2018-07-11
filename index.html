@@ -12,14 +12,14 @@
 		<meta property="og:url" content="https://tameesh.in">
 		<meta property="og:image" content="https://tameesh.in/avatar.jpg">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
 		<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
 		<meta name="theme-color" content="#4d4256">	  
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic|Dancing+Script" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script
 		  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
@@ -40,8 +40,37 @@
 		<link rel="stylesheet" href="assets/css/github.css" />
 			 <style>
 			 .myfont{
-			 	font-family: 'Josefin Sans', sans-serif ;
+                    font-family: 'Montserrat', sans-serif;
 			 }
+             *{
+                 color:#fff;
+                font-family: 'Montserrat', sans-serif;
+             }
+            a { text-decoration: none !important; }
+            a:link {
+                color:#fff;
+            }
+
+            /* visited link */
+            a:visited {
+                color:#fff;
+            }
+
+            /* mouse over link */
+            a:hover {
+                color:red;
+            }
+
+            /* selected link */
+            a:active {
+                color:#fff;
+            }
+             body{
+            background: #0F2027; /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #181d1f, #203A43, #0F2027);
+            /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #181d1f, #203A43, #0F2027); /* W3C, IE 10+/ Edge,
+            Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+             }
 	 	 	#homeimg {
 			    opacity: 1;
 			    /*position: absolute;*/
@@ -49,9 +78,9 @@
 			    /*left: 50%;*/
 			    /*transform: translate(-50%,-50%);*/
 			    margin: auto;
-			    height: 200px;
+			    height: 100px;
 			    z-index: 10;
-			    width: 200px;
+			    width: 100px;
 			    border-radius: 100px;/*
 			    background-image: url('pic/dp_.png');
 			    background-size: 120%;
@@ -59,7 +88,7 @@
 			    background-image: url('./images/profile.jpeg');
     background-size: 110%;
     background-position-x: 65%;
-			    box-shadow: 0 0 50px #151414;
+			    box-shadow: 0 0 100px #151414;
 			    background-color: #000000;
 			}
 			.nomargin{
@@ -69,10 +98,10 @@
 			    /* padding: 20px; */
 			    background-color: #4a4a4a;
 			    box-shadow: rgb(76, 92, 150) 0 0 15px;
-			    font-size: 30px;
-			    width: 50px;
-			    padding: 10px;
-			    height: 50px;
+			    font-size: 20px;
+			    width: 20px;
+			    padding: 15px;
+			    height: 20px;
 			    margin: 10px;
 			    text-align: center;
 			    text-decoration: none;
@@ -108,273 +137,80 @@
 			.zeroradius{
 				border-radius: 0px !important;
 			}
+            #extSocial{
+                text-align: center;
+
+            }
+            #extSocial a{
+                cursor: pointer;
+            }
+            #pgLoader{
+                position: fixed;
+                top:100%;
+                left:0;
+                width: 100%;
+                height: 100%;
+            }
+            #progress { position:fixed; z-index:2147483647; top:0; left:-6px; width:0%; height:4px; background:#b91f1f; -moz-border-radius:1px;
+            -webkit-border-radius:1px; border-radius:1px; -moz-transition:width 500ms ease-out,opacity 400ms linear; -ms-transition:width
+            500ms ease-out,opacity 400ms linear; -o-transition:width 500ms ease-out,opacity 400ms linear; -webkit-transition:width 500ms
+            ease-out,opacity 400ms linear; transition:width 500ms ease-out,opacity 400ms linear } #progress.done { opacity:0 } #progress
+            dd,#progress dt { position:absolute; top:0; height:4px; -moz-box-shadow:#b91f1f 3px 0 6px 3px; -ms-box-shadow:#b91f1f 3px
+            0 6px 5px; -webkit-box-shadow:#b91f1f 3px 0 6px 3px; box-shadow:#b91f1f 3px 0 6px 3px; -moz-border-radius:100%; -webkit-border-radius:100%;
+            border-radius:100% } #progress dd { opacity:1; width:20px; right:0; clip:rect(-6px,22px,14px,10px) } #progress dt { opacity:1;
+            width:180px; right:-80px; clip:rect(-6px,90px,14px,-6px) } @-moz-keyframes pulse { 30% { opacity:1 } 60% { opacity:0 } 100%
+            { opacity:1 } } @-ms-keyframes pulse { 30% { opacity:.6 } 60% { opacity:0 } 100% { opacity:.6 } } @-o-keyframes pulse { 30%
+            { opacity:1 } 60% { opacity:0 } 100% { opacity:1 } } @-webkit-keyframes pulse { 30% { opacity:.6 } 60% { opacity:0 } 100%
+            { opacity:.6 } } @keyframes pulse { 30% { opacity:1 } 60% { opacity:0 } 100% { opacity:1 } } #progress.waiting dd,#progress.waiting
+            dt { -moz-animation:pulse 2s ease-out 0s infinite; -ms-animation:pulse 2s ease-out 0s infinite; -o-animation:pulse 2s ease-out
+            0s infinite; -webkit-animation:pulse 2s ease-out 0s infinite; animation:pulse 2s ease-out 0s infinite }
+ .close { display:none;position: absolute; left: 32px; top: 32px; width: 62px; height: 62px; opacity: 0.7; z-index: 600;} .close:hover { opacity:
+1; } .close:before, .close:after { position: absolute; left: 25px; content: ' '; height: 50px; width: 2px; background-color:
+#fff;} .close:before { transform: rotate(45deg); } .close:after { transform: rotate(-45deg); }
+
 	 	 </style>
 	 	<script>
 	 		$(document).ready(function(){
 	 			$(".calendar").delay(1000).fadeIn();
+                 $(".close").onclick(function(){
+                     closePg();
+                 })
 	 		});
 	 	</script>
 	</head>
 	<body>
+<a href="#" onclick="closePg()" class="close"></a>
+        <div id="progress" class="waiting"></div>
 			<div id="page-wrapper">
-					<header id="header" class="alt">
-						<h1><a href="">Tameesh Biswas</a></h1>
-						<nav>
-							<a class="button" href="https://medium.com/tameeshb"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;Blog</a>
-							<!-- <a class="button" href="https://cloud.tameesh.in/"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;myCloud</a> -->
-							<a class="button" href="#menu">&lt;nav&gt;</a>
-						</nav>
-					</header>
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="https://medium.com/tameeshb">Blog</a></li>
-								<!-- <li><a href="http://cloud.tameesh.in/">MyCloud</a></li> -->
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#worked">Worked</a></li>
-								<li><a href="#alma-matter">Alma-Matter</a></li>
-								<li><a href="#projects">Projects</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
-					<section id="banner" style="min-height:90%">
-						<div  class="inner">
+					
+					<section id="banner" style="min-height:100%">
+						<div class="inner" style="position: absolute;top:50%;left:50%;transform: translate(-50%,-50%)">
 							<div class="logo"><div id="homeimg"></div></div>
 							<h2 id="headtext" class="notr myfont" style="text-align: center;"><b>Tameesh Biswas</b></h2>
-							<p  class="notr myfont"  style="text-align: center;">
+							<p  class="notr myfont"  style="text-align: center; line-height: 18px;">
 								Software Development Engineering Intern at <a href = "https://www.autodesk.com/products/fusion-360/overview" target="_blank">Autodesk</a><br>
-								Mentor at <a href="https://codein.withgoogle.com/">Google Code-In</a><br><a href="https://summerofcode.withgoogle.com/organizations/5186660074520576/#5408497358340096" target="_blank">Student</a> at <a target="_blank" href="https://summerofcode.withgoogle.com">Google Summer of Code</a><br>CSE Major at <a href="https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Patna">IIT-P</a> <br>Developer, OpenSource enthusiast, Code fanatic<br>
-								<code>IRC: tameeshb @freenode</code>
-								<br><a href="mailto:me@tameesh.in" >me@tameesh.in</a><br>
-								<a target="_blank" href="https://linkedin.com/in/tameeshb" class="fa faw-up fa-linkedin"></a>
-								<a target="_blank" href="https://www.facebook.com/tameeshB" class="fa faw-up fa-facebook"></a>
-								<a target="_blank" href="https://github.com/tameeshb" class="fa faw-up fa-github"></a>
-								<a target="_blank" href="https://instagram.com/tameeshb" class="fa faw-up fa-instagram"></a>
-								<a target="_blank" href="https://twitter.com/tameeshb" class="fa faw-up fa-twitter"></a>
-								<a target="_blank" href="https://drupal.org/u/tameeshb" class="fa faw-up fa-drupal"></a><br>
-								<a target="_blank" href="https://medium.com/tameeshb"  class="notr myfont  button">Blog</a>
-							<center><p  class="notr myfont"  style="text-align: center;"><h3 style="text-align: center;font-size:1.5em">What's New?</h3>
-								<a target="_blank" href="https://www.linkedin.com/company/autodesk/"  class="notr myfont  button">SWE Intern @ Autodesk for Summer '18</a><br>
-								<a target="_blank" href="https://2018.fossasia.org/"  class="notr myfont  button">I'll be speaking at the FOSSASIA Open-Source Summit 2018</a><br>
-			 					
-								<!-- <a target="_blank" href="https://www.udacity.com/bertelsmann-data-scholarships"  class="notr myfont  button">Bertelsmann Udacity Data Science Scholarship</a><br>
-								<a target="_blank" href="https://twitter.com/TameeshB/status/961274781101260800"  class="notr myfont  button">Google Udacity Scholarship</a><br> -->
-							</center><br>
-							</center><br>
-						<span id="intro"></span>
-								<!-- <a target="_blank" href="https://cloud.tameesh.in/" class="notr myfont button">MyCloud</a> -->
-
-								<div id="calcont" style="overflow-x: auto;width: 100%;">
-									<div class="calendar" style="display: none !important">
-									    <!-- Loading stuff -->
-									   <img src="loading.gif" alt="">
-									</div>
-								</div> 
-
-							<script>
-							    GitHubCalendar(".calendar", "tameeshb");
-							    // $("#calcont").scrollLeft("200px");
-							</script>
+								<br>Mentor at <a href="https://codein.withgoogle.com/">Google Code-In</a><br><a href="https://summerofcode.withgoogle.com/organizations/5186660074520576/#5408497358340096" target="_blank">Student</a> at <a target="_blank" href="https://summerofcode.withgoogle.com">Google Summer of Code</a><br>CSE Major at <a href="https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Patna">IIT-P</a> <br>Developer, OpenSource enthusiast, Code fanatic<br>
+                                <br><a href="mailto:me@tameesh.in" >me@tameesh.in</a><br>
+                                <p id="extSocial">
+                                    <a target="_blank" href="http://github.com/tameeshb">GitHub</a> |
+                                    <a target="_blank" href="https://linkedin.com/in/tameeshb">LinkedIn</a> |
+                                    <a target="_blank" href="https://medium.com/tameeshb">Blog</a> |
+                                    <a target="_blank" href="https://twitter.com/tameeshb">Twitter</a> |
+                                    <a target="_blank" href="https://facebook.com/tameeshb">Facebook</a>
+                                    <!-- <a onclick="loadPg('http://github.com/tameeshb')">GitHub</a> | -->
+                                    <!-- <a onclick="loadPg('https://linkedin.com/in/tameeshb')">LinkedIn</a> | -->
+                                    <!-- <a onclick="loadPg('https://medium.com/tameeshb')">Blog</a> | -->
+                                    <!-- <a onclick="loadPg('https://twitter.com/tameeshb')">Twitter</a> | -->
+                                    <!-- <a onclick="loadPg('https://facebook.com/tameeshb')">Facebook</a> -->
+                                    <br><br>
+                                    <a style="font-size: 1.3em;cursor: pointer;" onclick="loadPg('legacy.html#banner')">Know More...</a>
+                                </p><br>
+                                <!-- <code>IRC: tameeshb @freenode</code> -->
+							
 							</p>
 						</div>
 					</section>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
-							
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div  data-aos="fade-up" class="inner">
-									<a  class="image"><img src="pic/octocat.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major myfont">About Me!</h2>
-										<!-- <h3 class="major myfont">Presently: Diving into the world of applications of cryptography in  modern cryptosystems</h3> -->
-										<p class="myfont">
-											Software Development Engineering Intern at <a href ="https://www.autodesk.com/products/fusion-360/overview" target="_blank">Autodesk</a><br>
-											Student Developer at Google Summer of Code with Drupal<br>Mentor at Google Code-In<br>Overall Coordinator <a href= "https://njack-iitp.org">NJACK: CS Club @ IIT Patna</a> <br>Coordnator : Web and Native App dev team Anwesha,IIT Patna<br>Junior Year Computer Science &amp; Engineering student at IIT Patna <br>Developer, Open source enthusiast, code fanatic ♥</p>
-										<!-- <a target="_bl" href="http://tameesh.in/about/" class="special">Learn more</a> -->
-									</div>
-								</div>
-								<span id="worked"></span>
-							</section>
-							
-							<br>
-							<h1 style="font-size: 3em;text-align: center" class="myfont">Worked</h1>
-							<br>
-							<div id="two" data-aos="fade-up" class="wrapper alt spotlight style3">
-								<div class="inner">
-									<a target="_blank" href="#" class="image zeroradius"><img class="zeroradius"  src="pic/adsk.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major" style="text-transform: none !important;" class="myfont">Google Summer of Code - Freshman year</h2>
-										<h3 class="nomargin myfont">Software Development Engineering Intern</h3>
-										<h3 class="nomargin myfont">May – July 2018</h3>
-										<p></p>
-										<a target="_blank" href="https://www.autodesk.com/products/fusion-360/overview" class="special">Learn more</a>
-									</div>
-								</div>
-							</div>
-							<div id="two"  data-aos="fade-up" class="wrapper  spotlight style2">
-								<div class="inner">
-									<a target="_blank" href="https://summerofcode.withgoogle.com/organizations/5186660074520576/#5408497358340096" class="image zeroradius"><img class="zeroradius"  src="pic/gsoc_logo.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major" style="text-transform: none !important;" class="myfont">Google Summer of Code - Freshman year</h2>
-										<h3 class="nomargin myfont">Student participant at GSoC for Drupal</h3>
-										<h3 class="nomargin myfont">Client side file encryption for implementing a zero-knowledge system</h3>
-										<h3 class="nomargin myfont">May – August 2017</h3>
-										<p>Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization on a 3 month programming project during their break from school.</p>
-										<a target="_blank" href="https://summerofcode.withgoogle.com/organizations/5186660074520576/#5408497358340096" class="special">Learn more</a>
-										<a target="_blank" href="https://tameesh.in/DrupalGSoC2017-ClientSideEncryption.pdf" class="special">Project Proposal</a>
-										<a target="_blank" href="https://medium.com/tameeshb/gsoc17-Selected-proposals-announced" class="special">Blog Post</a>
-									</div>
-								</div>
-							</div>
-							
-							<div id="two"  data-aos="fade-up" class="wrapper spotlight alt style3">
-								<div class="inner">
-									<a  class="image zeroradius" ><img class="zeroradius" src="pic/gci.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major" style="text-transform: none !important;" class="myfont">Google Code-In</h2>
-										<h3 class="nomargin myfont">Mentor for Drupal</h3>
-										<h3 class="nomargin myfont">November 2017 – January 2018</h3>
-										<p>
-											
-										</p>
-										<a href="https://drupal.org/u/tameeshb" target="_blank"  class="special">Learn more</a>
-									</div>
-								</div>
-							</div>
-								<div id="two"  data-aos="fade-up" class="wrapper spotlight  style2">
-								<div class="inner">
-									<a  class="image zeroradius" ><img class="zeroradius" src="pic/drupal.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major" style="text-transform: none !important;" class="myfont">Drupal Project</h2>
-										<h3 class="nomargin myfont">Active Open-source contributor</h3>
-										<h3 class="nomargin myfont">November 2016 – Forever</h3>
-										<p>Drupal is content management software. It's used to make many of the websites and applications you use every day. Drupal has great standard features, like easy content authoring, reliable performance, and excellent security. But what sets it apart is its flexibility; modularity is one of its core principles.
-</p>
-										<a href="https://drupal.org/u/tameeshb" target="_blank"  class="special">Learn more</a>
-									</div>
-								</div>
-							</div>
-							<div id="two"  data-aos="fade-up" class="wrapper spotlight alt style3">
-								<div class="inner">
-									<a  class="image zeroradius" ><img class="zeroradius" src="pic/opensource-logo.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major" style="text-transform: none !important;" class="myfont">Open-Source@IITP</h2>
-										<!-- <h3 class="nomargin myfont">Sub-Coordinator</h3> -->
-										<h3 class="nomargin myfont">Co-Founded in 2017</h3>
-										<h3 class="nomargin myfont">Sub-Coordinator</h3>
-										<h3 class="nomargin myfont">August 2017 – Present</h3>
-										<p>Open-Source club in IIT P to pump up the open source culture, encourage more people to get into Open-Source software development and to awaken the open source spirit among students.</p>
-										<p>
-											Organised the first edition of <a href="https://nwoc.njack-iitp.org/">NJACK Winter of Code</a>	
-										</p>
-
-										<a href="https://nwoc.njack-iitp.org/" target="_blank"  class="special">NJACK Winter of Code</a>
-									</div>
-								</div>
-							</div>
-							<div id="two"  data-aos="fade-up" class="wrapper spotlight style2">
-								<div class="inner">
-									<a  class="image"><img src="pic/anwesha.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major" style="text-transform: none !important;" class="myfont">Anwesha , IIT Patna</h2>
-										<!-- <h3 class="nomargin myfont"></h3> -->
-										<h3 class="nomargin myfont">Sub-Coordinator, Web and App team : April 2017 – Present</h3>
-										<h3 class="nomargin myfont">Web Developer : Aug 2016 – Feb 2017</h3>
-										<h3 class="nomargin myfont">Location:IIT Patna</h3>
-										<p>Working as a full stack developer Anwesha 2017 Web Application<br>Anwesha is the Annual Techno-Cultural Festival organized by Indian Institute of Technology Patna.</p>
-										<!-- <a href="" class="special">Learn more</a> -->
-									</div>
-								</div>
-							</div>
-							
-						<!-- Three -->
-							
-								<section id="three" class="wrapper spotlight style3 alt ">
-								<div class="inner">
-									<a class="image"><img src="images/celLogo.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Celesta IIT Patna <br></h2>
-										<h3 class="nomargin myfont">Backend API developer for Android app and web</h3>
-										<p></p>
-										<a  target="_blank" href="https://github.com/tameeshB/EdVu" class="special">Learn more</a>
-									</div>
-								</div>
-								<span id="alma-matter"></span>
-							</section>
-							<section id="three" class="wrapper spotlight style2 ">
-								<div class="inner">
-									<a class="image"><img src="pic/tedx.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">TEDxIITPatna</h2>
-										<h3 class="nomargin myfont">Developer</h3>
-										<h3 class="nomargin myfont">Sep 2016 – Nov 2016<br>Location:IIT Patna</h3>
-										<p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. </p>
-										<!-- <a href="#" class="special">Learn more</a> -->
-									</div>
-								</div>
-							</section>
-
-							<br>
-							<h1 style="font-size: 3em;text-align: center" class="myfont">Alma mater</h1>
-							<br>
-							<section id="two" class="wrapper  spotlight style3 alt">
-								<div class="inner">
-									<a class="image"><img src="pic/iitp.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major" style="text-transform: none !important;font-family: 'Josefin Sans', sans-serif !important;">Indian Institute of Technology, Patna - IIT P</h2>
-										<h3 class="nomargin myfont">Bachelors in Technology</h3>
-										<h3 class="nomargin myfont">Major: Computer Science and Engineering</h3>
-										<p>The Indian Institute of Technology Patna is an autonomous institute of education and research in science, engineering and technology located in Patna, India. It is recognized as an Institute of National Importance by the Government of India.</p>
-										<a href="http://www.iitp.ac.in"  target="_blank"  class="special myfont">Learn more</a>
-									</div>
-								</div>
-							</section>
-						
-						<!-- Three 
-							<section id="three" class="wrapper spotlight style2 alt">
-								<div class="inner">
-									<a href="#" class="image"><img src="pic/dps.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major myfont">Delhi Public School, Navi Mumbai</h2>
-										<h3 class="nomargin myfont">Primary-Middle-High School</h3>
-										<p></p>
-										<a href="http://dpsnavimumbai.edu.in"  target="_blank" class="special myfont">Learn more</a>
-									</div>
-								</div>
-							<span id="projects"></span>
-							</section>-->
-							<br>
-							<!-- 
-							<br >
-								<h1 style="font-size: 3em;text-align: center" class="myfont">Projects</h1>
-							 <br>
-						<center><hr width="50%">
-							<a target="_blank" href="https://github.com/tameeshb" class="button">Browse All Projects</a><hr width="50%"></center>
-							<br ><br ><br >
-								<h1 style="font-size: 3em;text-align: center">Etc.</h1>
-							<br>
-							<section id="three" class="wrapper alt spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="pic/cam.png" alt="" /></a>
-									<div class="content">
-										<p>The following are a few things I do or used to do before when I'm not coding:
-											<ul>
-												<li>Photography</li>
-												<li>Cycling</li>
-												<li>Listening to Music!</li>
-											</ul>
-										</p>
-									</div>
-								</div>
-							</section>-->
-
-					</section>
-					<!-- mainwrapper close -->
 
 				<!-- Footer -->
 					<section id="footer">
@@ -397,44 +233,11 @@
 	  					}
 	  			</script>
 
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<!-- 
-							<form id="formHolder" action="javascript:formsend()">
-								<div class="field">
-									<label for="name">Name</label>
-									<input type="text" id="nameholder" name="name"  />
-								</div>
-								<div class="field">
-									<label for="email">Email</label>
-									<input type="email" name="email" id="emailholder" />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="messageholder" rows="4"></textarea>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" id="formsubmit" value="Send Message" /></li>
-								</ul>
-							</form> -->
-							<ul class="contact">
-								<li><code>IRC: tameeshb @freenode</code></li>
-								<li><a target="_blank" href="https://linkedin.com/in/tameeshb" class="myfont">&nbsp;&nbsp;&nbsp;LinkedIn</a></li>
-								<li><a target="_blank" href="https://github.com/tameeshb" class="myfont">&nbsp;&nbsp;&nbsp;GitHub</a></li>
-								<li><a target="_blank" href="https://www.facebook.com/tameeshB" class=" myfont">&nbsp;&nbsp;&nbsp;Facebook</a></li>
-								<li><a target="_blank" href="https://instagram.com/tameeshb" class="myfont ">&nbsp;&nbsp;&nbsp;Instagram</a></li>
-								<li><a target="_blank" href="https://twitter.com/tameeshb" class="myfont">&nbsp;&nbsp;&nbsp;Twitter</a></li>
-								<li><a target="_blank" href="https://drupal.org/u/tameeshb" class="myfont">&nbsp;&nbsp;&nbsp;Drupal</a></li>
-								<li><a target="_blank" href="https://medium.com/tameeshb"  class="notr myfont button">Drupal Blog</a></li>
-								
-								<!-- <li><a target="_blank" href="https://cloud.tameesh.in/" class="notr myfont button">MyCloud</a></li> -->
-							</ul>
-							
-						</div>
 					</section>
 
 			</div>
-
+            <iframe src="" frameborder="0" id="pgLoader" allowfullscreen></iframe>
+            
 		<!-- Scripts -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
@@ -442,13 +245,63 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
- <script>
-		    AOS.init();
-			   $(window).on('load', function () {
-			    AOS.refresh();
-			});
-		</script>
 
+        <script type="text/javascript">
+            function loadPg(url){
+                $("#pgLoader").attr("src",url);
+                $("#pgLoader").fadeIn();
+            $({property: 0}).animate({property: 105}, {
+                duration: 2000,
+                step: function() {
+                var _percent = Math.round(this.property);
+                $("#progress").css("width",  _percent+"%");
+                if(_percent == 105) {
+                    $("#progress").addClass("done");
+                }
+                },
+                complete: function() {
+                    window.location.hash = url
+                }
+            });
+            setTimeout(function(){
+                $(".close").fadeIn();
+                 $("#pgLoader").animate({ 
+                        top: "0px",
+                        opacity:1
+                    }, 1000 );
+                    $("#progress").removeClass("done");
+                   $("#progress").addClass("waiting");
+            },700)
+            }
+            function closePg(){
+                $(".close").fadeOut();
+                 $("#pgLoader").animate({ 
+                        top: "100%",
+                        opacity : 0.3
+                    }, 1000 );
+                    setTimeout(() => {
+                        $("#pgLoader").css("opacity",1)
+                        $("#pgLoader").fadeOut();
+                        $("#pgLoader").attr("src","");
+                    }, 1000);
+            }
+            $(document).ready(function(){
+                if (window.location.hash!=""){
+                    loadPg(window.location.hash.substring(1));
+                }
+                 $(".close").onclick(function(){
+                    $("#pgLoader").attr("src","");
+                $(".close").fadeOut();
+                 $("#pgLoader").animate({ 
+                        top: "100%",
+                        
+                    }, 1000 );
+                    setTimeout(() => {
+                        $("#pgLoader").fadeOut();
+                    }, 1000);
+                 })
+	 		});
+        </script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
